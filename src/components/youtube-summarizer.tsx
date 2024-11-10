@@ -57,18 +57,18 @@ interface AnalysisResult {
   };
 }
 
-interface RelatedVideo {
-  id: {
-    videoId: string;
-  };
-  snippet: {
-    title: string;
-    thumbnails: {
-      default: { url: string; };
-    };
-    channelTitle: string;
-  };
-}
+// interface RelatedVideo {
+//   id: {
+//     videoId: string;
+//   };
+//   snippet: {
+//     title: string;
+//     thumbnails: {
+//       default: { url: string; };
+//     };
+//     channelTitle: string;
+//   };
+// }
 
 // Add this helper function before the YouTubeSummarizer component
 const formatDuration = (duration: string): string => {
